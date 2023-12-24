@@ -9,10 +9,10 @@ script = ExtResource("1_6t5mk")
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
-polygon = PackedVector2Array(0, 0, 0, 648, 1152, 648, 1152, 0, 1088, 0, 1088, 576, 1016, 576, 896, 512, 832, 512, 832, 448, 768, 448, 768, 576, 704, 576, 640, 512, 576, 576, 448, 576, 448, 512, 384, 512, 384, 448, 320, 448, 320, 512, 224, 512, 224, 576, 64, 576, 64, 0)
+polygon = PackedVector2Array(0, 0, 0, 176, 320, 176, 320, 0, 312, 0, 312, 168, 280, 168, 280, 136, 256, 136, 256, 168, 224, 168, 192, 152, 168, 152, 168, 168, 128, 168, 104, 152, 104, 168, 64, 168, 64, 144, 40, 144, 40, 168, 8, 168, 8, 0)
 
 [node name="Polygon2D" type="Polygon2D" parent="StaticBody2D/CollisionPolygon2D"]
 color = Color(0.541176, 0.278431, 0, 1)
 
 [node name="Bungo" parent="." instance=ExtResource("2_8ghp5")]
-position = Vector2(184, 264)
+position = Vector2(112, 24)
